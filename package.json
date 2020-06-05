@@ -1,0 +1,26 @@
+{
+  "name": "quickapp_write",
+  "version": "1.0.0",
+  "description": "快应用写字板",
+  "module": "dist/quickapp_write.js",
+  "main": "index.js",
+  "author": "wangcao",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "cross-env APP_ENV=prod rollup -c",
+    "dev": "cross-env APP_ENV=dev rollup --config rollup.dev.js -w"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "rollup": "^1.31.1",
+    "rollup-plugin-filesize": "^6.2.1",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-license": "^0.13.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^5.2.0"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}
