@@ -14,7 +14,7 @@ export default [
   {
     ...baseConfig,
     output: {
-      file: pkg.module.replace(".js", `_${pkg.version}.min.js`),
+      file: pkg.module,
       format: "esm"
     },
     plugins: [...baseConfig.plugins, terser(), filesize()]
