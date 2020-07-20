@@ -1,6 +1,6 @@
 {
   "name": "quickapp_write",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "快应用写字板",
   "module": "dist/quickapp_write.min.js",
   "main": "dist/quickapp_write.min.js",
