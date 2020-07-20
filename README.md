@@ -13,8 +13,16 @@
 ### 1 引入JSSDK
 将dist内文件复制到快应用根目录，在`app.ux`文件中引入
 
+或者
+
+```js
+npm i quickapp_write
+```
+
 ```js
 import './quickapp_write_1.0.0.min.js'
+// or
+import 'quickapp_write';
 ```
 
 ### 2 初始化canvas
